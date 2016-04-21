@@ -1,0 +1,54 @@
+#mainSplitter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.assets, .bottom {
+  position: absolute;
+  bottom: 0;
+}
+.assets {
+  top: 60px;
+  left: 7px;
+  right: 7px;
+}
+.assets input {
+  background: #d6fef6;
+}
+.assets textarea {
+  background: #c1e5fe;
+}
+.bottom {
+  top: 7px;
+  left: 7px;
+  right: 7px;
+}
+.bottom textarea {
+  width: 100%;
+  height: 100%;
+  background: #fec1fd;
+}
+
+/* variable classe */
+.block {
+  display: block;
+}
+.fill {
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+.txtcenter {
+  text-align: center;
+}
+.bfix {
+  margin: 7.12px;
+  width: 96%!important;
+}
+.scroll {
+  overflow: auto;
+}
